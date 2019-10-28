@@ -27,27 +27,6 @@ int main()
     printf("The string to search is %s\n\r",szWord);
 
     fun_return = ASI_keyword_searcher(szString,szWord);
-/*    for(iIndex=0; iIndex < iStrLen;)
-    {
-        iIndex2 = 0;
-        iCount = 0;
-        while(szString[iIndex] == szWord[iIndex2])
-        {
-                iCount++;
-                iIndex2++;
-                iIndex++;
-        }
-        if(iCount == iWordLen)
-        {
-            iCount1++;
-            iCount = 0;
-        }
-        else
-        {
-            iIndex++;
-        }
-    }*/
-
     printf("The word occures %d times in the string",fun_return);
     return 0;
 }
